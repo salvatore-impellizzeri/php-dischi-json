@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #1D2D3C;
+}
+
+.img-container{
+    height: 40px;
+    width: 40px;
+}
+
+.img-container img{
+    max-width: 100%;
+}
+
+header{
+    background-color: #06131F;
+}
+
+.main-section {
+    width: 50%;
+    margin: auto;
+}
+
+.disk-card {
+    border-radius: 10px;
+    height: 400px;
+    width: calc((100% / 3) - 50px);
+    text-align: center;
+    background-color: #112030;
+    margin: 15px;
+}
+
+.disk-card img {
+    width: 200px;
+    height: 200px;
+    padding: 15px 15px;
+    margin: 20px 0;
+}
+
+.disk-card .info-disk h4, .disk-card .info-disk h5 {
+    padding: 5px 0;
+}
